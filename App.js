@@ -25,8 +25,7 @@ class App extends Component {
             <div key={student.id}>
               <span>{student.name}</span>
               <span>{student.Admno}</span>
-              <button className="btn btn-danger m-2"
-                      onClick={() => this.onDismiss(student.id)}>Delete</button>
+              <button className="btn btn-danger m-2">Delete</button>
             </div>
           ))}
       </div>
